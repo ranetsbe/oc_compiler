@@ -1,0 +1,6 @@
+/RCS
+mk.*
+*.ast
+*.str
+*.tok
+*~

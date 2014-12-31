@@ -1,0 +1,38 @@
+//arrays.oc
+/*
+#include "oclib.oh"
+
+string[] a = new string[10];
+char f = a[10][0];
+if(a[0] == a[10]){
+  int[] i = new int[0];
+  int j = i[1]; 
+  i[2] = j;
+  a[1] = "lol";
+}
+*/
+struct base {
+  string a;
+  string b;
+  string c;
+}
+
+base newb = new base();
+
+newb.a = "ALL ";
+newb.b = "YOUR ";
+newb.c = "BASE ";
+
+bool inyourbase = true;
+
+void yourbase (string a, string b, string c) {
+  string bar = "foo";
+  if (inyourbase) {
+    //puts(a);
+    //puts(b);
+    //puts(c);
+  }
+  return;
+}
+
+yourbase(newb.a, newb.b, newb.c);

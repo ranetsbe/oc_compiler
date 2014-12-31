@@ -1,0 +1,10 @@
+struct node { int foo; string fuckoff; }
+string[] a = new string[10];
+char f( int b ) {
+  node c = new node();
+  if ( b < 42 ) {
+    char c = 'x';
+  } else {
+    int d = 10;
+  }
+}
